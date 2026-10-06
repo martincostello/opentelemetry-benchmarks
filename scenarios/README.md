@@ -29,7 +29,13 @@ implementation can produce a conforming harness from the document alone.
 | ID | Scenario | Status |
 |----|----------|--------|
 | [S001](./S001-counter-increment-api-only.md) | Counter increment, API-only (no SDK configured) | Active |
+| [S002](./S002-histogram-record-api-only.md) | Histogram record, API-only | Draft |
+| [S003](./S003-span-start-end-api-only.md) | Span start/end, API-only | Draft |
+| [S004](./S004-span-attribute-event-api-only.md) | Span with attribute set and event, API-only | Draft |
+| [S005](./S005-nested-spans-api-only.md) | Nested spans (depth 3), API-only | Draft |
+| [S006](./S006-log-record-emit-api-only.md) | Log record emit, API-only | Draft |
+| [S007](./S007-log-enabled-check-api-only.md) | Log record with Enabled check, API-only | Draft |
 
-Additional scenarios (other signals, SDK fast-paths, multi-threaded workloads)
+Additional scenarios (SDK fast-paths, multi-threaded workloads)
 are tracked as future work in
 [OTEP 5109](https://github.com/open-telemetry/opentelemetry-specification/pull/5118).

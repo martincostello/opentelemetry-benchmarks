@@ -23,9 +23,9 @@ configured?"* A high no-op cost directly slows down the instrumented library.
 S001 measures exactly that cost and tracks it release-over-release.
 
 While this no-op requirement applies to all signals, S001 focuses on the metrics
-API as the first scenario; equivalent API-only scenarios for traces and logs
-are reasonable follow-up work. Concretely, S001 measures the cost of a single
-counter increment, defined below.
+API as the first scenario; equivalent API-only scenarios for other instruments,
+traces and logs are proposed as drafts in S002 to S007. Concretely, S001
+measures the cost of a single counter increment, defined below.
 
 ## Definition
 
