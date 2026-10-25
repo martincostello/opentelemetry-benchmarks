@@ -4,7 +4,8 @@ bin/
 obj/
 
 # BenchmarkDotNet run artifacts
-BenchmarkDotNet.Artifacts/
+.bdn/
+BenchmarkDotNet.Artifacts*/
 
 # IDE
 .vs/
